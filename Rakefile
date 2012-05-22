@@ -9,7 +9,7 @@ end
 
 desc "Upload the gem to RubyGems.org."
 task :release => [:gem] do
-  system "gem push vagrant-vmhosts-#{VagrantVmHosts::VERSION}"
+  system "gem push vagrant-vmhosts-#{VagrantVmHosts::VERSION}.gem"
 end
 
 desc "Default task prints the available targets."
