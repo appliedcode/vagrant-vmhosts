@@ -1,0 +1,5 @@
+en:
+  vagrant:
+    plugins:
+      vmhosts:
+        adding: "Adding additional host entries..."

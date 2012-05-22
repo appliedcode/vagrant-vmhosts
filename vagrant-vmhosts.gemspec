@@ -19,7 +19,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency "vagrant", "~> 1.0.0"
 
-  s.files         = Dir.glob("lib/**/*") + %w(LICENSE README.md)
+  s.files         = Dir["lib/**/*"] + 
+                    Dir["locales/**/*"] + 
+                    %w(LICENSE README.md)
   s.require_paths = ["lib"]
   s.extra_rdoc_files = ["LICENSE", "README.md"]
 end
